@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*,html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body{
+    /* background-color: #d8ece2; */
+    background-color: #37462F;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .head-logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 3rem;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    color: goldenrod;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+    /* position: relative;
+    right: 350px; */
+}
+.header ul li a{
+    text-decoration: none;
+    font-family: serif;
+    font-weight: 500;
+    color:    white;
+    transition: transform 2s ease all;
+}
+.header ul li a:hover{
+    color: black;
+}
+.header ul li i{
+    margin-left: 2px;
+    font-size: 0.7rem;
+    color: white;
+    transform: rotate(0deg); /* Default state */
+    transition: transform 0.3s ease; /* Adjust timing and easing as desired */
+}
+.header ul li a:hover i{
+    color: black;
+    transform: rotate(180deg); /* Flip when hovered */
+}
+.header ul li{
+    padding: 20px 15px;
+    font-size: 1rem; 
+    position: relative;
+}
+
+.header ul .nav-drop{
+    position: relative;
+    display: inline-block;
+}
+.header ul .nav-drop .contents-drop{
+    position: absolute;
+    display: none;
+    padding: 17px 16px 17px 16px;
+    margin-top: 10px;
+    left: 0;
+    width: 165px;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: transform 10s ease all; /* Smooth transition */
+
+}
+.header ul .nav-drop:hover .contents-drop{
+    display: block;
+    margin-top: 15px;
+} 
+.header ul .nav-drop .contents-drop a{
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.header ul .nav-drop .contents-drop a:hover{
+    color: white;
+}
+.header .user-user{
+    display: flex;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.header .user-shop-exp{
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+    /* margin-right: 50px; */
+}
+.header .user-shop-exp i{
+    padding: 0px 7px;
+    color: goldenrod;
+    font-size: 0.7rem;
+    margin-top: 11px;
+  
+}
+.header .user-user h2{
+    font-size: 0.8rem;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:  white;
+    font-family: serif;
+    font-weight: 500;
+    
+}
+.header .user-user i{
+    color: goldenrod;
+    font-size: 0.7rem;
+    margin-top: 11px;
+    
+}
+
+/* HEADER */
