@@ -1,0 +1,19 @@
+COLOR PALLET:
+
+1.Blue: #002A5C
+2.White: #FFFFFF
+3.Green: #008751
+4.Gold: #FFD700
+
+FONTS:
+
+1.Logo =  font-family: Marck Script cursive; font-weight: 400;
+2.Nav Links = font-family: serif; font-weight: 500;
+
+NAV LINKS:
+
+1.Home
+2.About
+3.Products
+4.Collections
+5.Contact Us
